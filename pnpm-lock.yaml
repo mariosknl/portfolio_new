@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@react-three/drei':
     specifier: ^9.105.6
-    version: 9.105.6(@react-three/fiber@8.16.6)(@types/react@18.3.3)(@types/three@0.164.1)(react-dom@18.3.1)(react@18.3.1)(three@0.164.1)
+    version: 9.105.6(@react-three/fiber@8.16.6)(@types/react@18.3.2)(@types/three@0.164.1)(react-dom@18.3.1)(react@18.3.1)(three@0.164.1)
   '@react-three/fiber':
     specifier: ^8.16.6
     version: 8.16.6(react-dom@18.3.1)(react@18.3.1)(three@0.164.1)
@@ -19,7 +19,7 @@ dependencies:
     version: 2.1.1
   framer-motion:
     specifier: ^11.2.4
-    version: 11.2.4(react-dom@18.3.1)(react@18.3.1)
+    version: 11.2.6(react-dom@18.3.1)(react@18.3.1)
   i:
     specifier: ^0.3.7
     version: 0.3.7
@@ -973,7 +973,7 @@ packages:
   /@react-spring/types@9.6.1:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
-
+    
   /@react-three/drei@9.105.6(@react-three/fiber@8.16.6)(@types/react@18.3.3)(@types/three@0.164.1)(react-dom@18.3.1)(react@18.3.1)(three@0.164.1):
     resolution: {integrity: sha512-JBgYeV36N9N9f1c3o1ZfLYW4rXZA7UQTq32Y8s3DEF6lwj1/y+RP/yq2VG5I8OzUPl7gsmWdy8fpWZgrlAqUpQ==}
     peerDependencies:
@@ -3106,8 +3106,8 @@ packages:
       simplesignal: 2.1.7
     dev: false
 
-  /framer-motion@11.2.4(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-D+EXd0lspaZijv3BJhAcSsyGz+gnvoEdnf+QWkPZdhoFzbeX/2skrH9XSVFb0osgUnCajW8x1frjhLuKwa/Reg==}
+  /framer-motion@11.2.6(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-XUrjjBt57e5YoHQtjwc3eNchFBuHvIgN/cS8SC4oIaAn2J/0+bLanUxXizidJKZVeHJam/JrmMnPRjYMglVn5g==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
