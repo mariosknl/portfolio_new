@@ -58,7 +58,7 @@ importers:
         version: 0.168.0
       three-globe:
         specifier: ^2.31.0
-        version: 2.31.1(three@0.168.0)
+        version: 2.32.0(three@0.168.0)
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -767,17 +767,20 @@ packages:
   '@swc/helpers@0.5.5':
     resolution: {integrity: sha512-KGYxvIOXcceOAbEk4bi/dVLEK9z8sZ0uBB3Il5b1rhfClSpcX0yfRO0KmTkqR2cnQDymwLB+25ZyMzICg/cm/A==}
 
-  '@turf/boolean-point-in-polygon@6.5.0':
-    resolution: {integrity: sha512-DtSuVFB26SI+hj0SjrvXowGTUCHlgevPAIsukssW6BG5MlNSBQAo70wpICBNJL6RjukXg8d2eXaAWuD/CqL00A==}
+  '@turf/boolean-point-in-polygon@7.1.0':
+    resolution: {integrity: sha512-mprVsyIQ+ijWTZwbnO4Jhxu94ZW2M2CheqLiRTsGJy0Ooay9v6Av5/Nl3/Gst7ZVXxPqMeMaFYkSzcTc87AKew==}
 
-  '@turf/helpers@6.5.0':
-    resolution: {integrity: sha512-VbI1dV5bLFzohYYdgqwikdMVpe7pJ9X3E+dlr425wa2/sMJqYDhTO++ec38/pcPvPE6oD9WEEeU3Xu3gza+VPw==}
+  '@turf/helpers@7.1.0':
+    resolution: {integrity: sha512-dTeILEUVeNbaEeoZUOhxH5auv7WWlOShbx7QSd4s0T4Z0/iz90z9yaVCtZOLbU89umKotwKaJQltBNO9CzVgaQ==}
 
-  '@turf/invariant@6.5.0':
-    resolution: {integrity: sha512-Wv8PRNCtPD31UVbdJE/KVAWKe7l6US+lJItRR/HOEW3eh+U/JwRCSUl/KZ7bmjM/C+zLNoreM2TU6OoLACs4eg==}
+  '@turf/invariant@7.1.0':
+    resolution: {integrity: sha512-OCLNqkItBYIP1nE9lJGuIUatWGtQ4rhBKAyTfFu0z8npVzGEYzvguEeof8/6LkKmTTEHW53tCjoEhSSzdRh08Q==}
 
   '@tweenjs/tween.js@23.1.3':
     resolution: {integrity: sha512-vJmvvwFxYuGnF2axRtPYocag6Clbb5YS7kLL+SO/TeVFzHqDIWrNKYtcsPMibjDx9O+bu+psAy9NKfWklassUA==}
+
+  '@tweenjs/tween.js@25.0.0':
+    resolution: {integrity: sha512-XKLA6syeBUaPzx4j3qwMqzzq+V4uo72BnlbOjmuljLrRqdsd3qnzvZZoxvMHZ23ndsRS4aufU6JOZYpCbU6T1A==}
 
   '@types/connect@3.4.36':
     resolution: {integrity: sha512-P63Zd/JUGq+PdrM1lv0Wv5SBYeA2+CORvbrXbngriYY0jzLUWfQMQQxOhjONEz/wlHOAxOdY7CY65rgQdTjq2w==}
@@ -790,6 +793,9 @@ packages:
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
+
+  '@types/geojson@7946.0.14':
+    resolution: {integrity: sha512-WCfD5Ht3ZesJUsONdhvm84dmzWOiOzOAqOncN0++w0lBw1o8OuDNJF2McvvCef/yBqb/HYRahp1BYtODFQ8bRg==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -1352,9 +1358,6 @@ packages:
 
   draco3d@1.5.7:
     resolution: {integrity: sha512-m6WCKt/erDXcw+70IJXnG7M3awwQPAsZvJGX5zY7beBqpELw6RDGkYVU0W43AFxye4pDZ5i2Lbyc/NNGqwjUVQ==}
-
-  earcut@2.2.4:
-    resolution: {integrity: sha512-/pjZsA1b4RPHbeWZQn66SWS8nZZWLQQ23oE3Eam7aroEFGEvwKAsJfZ9ytiEMycfzXWpca4FA9QIOehf7PocBQ==}
 
   earcut@3.0.0:
     resolution: {integrity: sha512-41Fs7Q/PLq1SDbqjsgcY7GA42T0jvaCNGXgGtsNdvg+Yv8eIu06bxv4/PoREkZ9nMDNwnUSG9OFB9+yv8eKhDg==}
@@ -1970,8 +1973,8 @@ packages:
     resolution: {integrity: sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==}
     engines: {node: '>=4.0'}
 
-  kapsule@1.14.5:
-    resolution: {integrity: sha512-H0iSpTynUzZw3tgraDmReprpFRmH5oP5GPmaNsurSwLx2H5iCpOMIkp5q+sfhB4Tz/UJd1E1IbEE9Z6ksnJ6RA==}
+  kapsule@1.14.6:
+    resolution: {integrity: sha512-wSi6tHNOfXrIK2Pvv6BhZ9ukzhbp+XZlOOPWSVGUbqfFsnnli4Eq8FN6TaWJv2e17sY5+fKYVxa4DP2oPGlKhg==}
     engines: {node: '>=12'}
 
   keyv@4.5.4:
@@ -2262,6 +2265,9 @@ packages:
   pirates@4.0.6:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
+
+  point-in-polygon-hao@1.1.0:
+    resolution: {integrity: sha512-3hTIM2j/v9Lio+wOyur3kckD4NxruZhpowUbEgmyikW+a2Kppjtu1eN+AhnMQtoHW46zld88JiYWv6fxpsDrTQ==}
 
   possible-typed-array-names@1.0.0:
     resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
@@ -2682,17 +2688,11 @@ packages:
   thenify@3.3.1:
     resolution: {integrity: sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==}
 
-  three-conic-polygon-geometry@1.6.3:
-    resolution: {integrity: sha512-uJhuUBHc5K4IFQ+31qVQboMIlEQ485WWX7+pN4qR2p4ctTO66nlJ2NWrXNn8x2A89Utyf09v+zyBIpWUVe1inQ==}
+  three-conic-polygon-geometry@1.6.4:
+    resolution: {integrity: sha512-/UCeKezqSw1GopU9XnEH3oWdUYhcy4jnjeABkAHZrP1bGywUAjI3IcTfuVgl+Ug9V+dvsrUNKGSeWMq46XYylA==}
     engines: {node: '>=12'}
     peerDependencies:
       three: '>=0.72.0'
-
-  three-fatline@0.7.0:
-    resolution: {integrity: sha512-IG3mA1gNO1ccT/O8ou9rBnYJQynCreCZn12IfuyFoWNN9+0DrrSENlXk46I7TQfNBKCgwsHpzucJ2qyPC3I/dQ==}
-    engines: {node: '>=12'}
-    peerDependencies:
-      three: '>=0.154.0'
 
   three-geojson-geometry@1.3.3:
     resolution: {integrity: sha512-9SogZ9CYfzUYPo0oagGdTCU+Suyjqrbdya24xNbkwMwXr0atF5ozJKPUkdQWHwUy2WgV+i4I9cSjFDnGnanvbQ==}
@@ -2700,11 +2700,11 @@ packages:
     peerDependencies:
       three: '>=0.72.0'
 
-  three-globe@2.31.1:
-    resolution: {integrity: sha512-xsQGPsURxvPpHziq99cX++RmzDFFi3mITJyWNrGiY6cuH8BJkSb1C3xBYoqH5zmGSEIa16uPHN8KrYCiMUg8Wg==}
+  three-globe@2.32.0:
+    resolution: {integrity: sha512-iHiEY8GsDA51j2BhdTS9LuhOGZXPYGfNxR6F8LtnFed5oC2pkwq15p3osXQw07BRCqKoApOkBUhw6W4Jy1FJFQ==}
     engines: {node: '>=12'}
     peerDependencies:
-      three: '>=0.125'
+      three: '>=0.154'
 
   three-mesh-bvh@0.7.8:
     resolution: {integrity: sha512-BGEZTOIC14U0XIRw3tO4jY7IjP7n7v24nv9JXS1CyeVRWOCkcOMhRnmENUjuV39gktAw4Ofhr0OvIAiTspQrrw==}
@@ -3801,18 +3801,28 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.7.0
 
-  '@turf/boolean-point-in-polygon@6.5.0':
+  '@turf/boolean-point-in-polygon@7.1.0':
     dependencies:
-      '@turf/helpers': 6.5.0
-      '@turf/invariant': 6.5.0
+      '@turf/helpers': 7.1.0
+      '@turf/invariant': 7.1.0
+      '@types/geojson': 7946.0.14
+      point-in-polygon-hao: 1.1.0
+      tslib: 2.7.0
 
-  '@turf/helpers@6.5.0': {}
-
-  '@turf/invariant@6.5.0':
+  '@turf/helpers@7.1.0':
     dependencies:
-      '@turf/helpers': 6.5.0
+      '@types/geojson': 7946.0.14
+      tslib: 2.7.0
+
+  '@turf/invariant@7.1.0':
+    dependencies:
+      '@turf/helpers': 7.1.0
+      '@types/geojson': 7946.0.14
+      tslib: 2.7.0
 
   '@tweenjs/tween.js@23.1.3': {}
+
+  '@tweenjs/tween.js@25.0.0': {}
 
   '@types/connect@3.4.36':
     dependencies:
@@ -3823,6 +3833,8 @@ snapshots:
   '@types/draco3d@1.4.10': {}
 
   '@types/estree@1.0.6': {}
+
+  '@types/geojson@7946.0.14': {}
 
   '@types/json-schema@7.0.15': {}
 
@@ -4480,8 +4492,6 @@ snapshots:
   dotenv@16.4.5: {}
 
   draco3d@1.5.7: {}
-
-  earcut@2.2.4: {}
 
   earcut@3.0.0: {}
 
@@ -5228,7 +5238,7 @@ snapshots:
       object.assign: 4.1.5
       object.values: 1.2.0
 
-  kapsule@1.14.5:
+  kapsule@1.14.6:
     dependencies:
       lodash-es: 4.17.21
 
@@ -5492,6 +5502,8 @@ snapshots:
   pify@2.3.0: {}
 
   pirates@4.0.6: {}
+
+  point-in-polygon-hao@1.1.0: {}
 
   possible-typed-array-names@1.0.0: {}
 
@@ -5940,19 +5952,15 @@ snapshots:
     dependencies:
       any-promise: 1.3.0
 
-  three-conic-polygon-geometry@1.6.3(three@0.168.0):
+  three-conic-polygon-geometry@1.6.4(three@0.168.0):
     dependencies:
-      '@turf/boolean-point-in-polygon': 6.5.0
+      '@turf/boolean-point-in-polygon': 7.1.0
       d3-array: 3.2.4
       d3-geo: 3.1.1
       d3-geo-voronoi: 2.1.0
       d3-scale: 4.0.2
       delaunator: 5.0.1
-      earcut: 2.2.4
-      three: 0.168.0
-
-  three-fatline@0.7.0(three@0.168.0):
-    dependencies:
+      earcut: 3.0.0
       three: 0.168.0
 
   three-geojson-geometry@1.3.3(three@0.168.0):
@@ -5961,9 +5969,9 @@ snapshots:
       earcut: 3.0.0
       three: 0.168.0
 
-  three-globe@2.31.1(three@0.168.0):
+  three-globe@2.32.0(three@0.168.0):
     dependencies:
-      '@tweenjs/tween.js': 23.1.3
+      '@tweenjs/tween.js': 25.0.0
       accessor-fn: 1.5.1
       d3-array: 3.2.4
       d3-color: 3.1.0
@@ -5972,14 +5980,12 @@ snapshots:
       d3-scale: 4.0.2
       d3-scale-chromatic: 3.1.0
       data-joint: 1.3.1
-      earcut: 2.2.4
       frame-ticker: 1.0.3
       h3-js: 4.1.0
       index-array-by: 1.4.2
-      kapsule: 1.14.5
+      kapsule: 1.14.6
       three: 0.168.0
-      three-conic-polygon-geometry: 1.6.3(three@0.168.0)
-      three-fatline: 0.7.0(three@0.168.0)
+      three-conic-polygon-geometry: 1.6.4(three@0.168.0)
       three-geojson-geometry: 1.3.3(three@0.168.0)
       tinycolor2: 1.6.0
       yaot: 1.1.3
