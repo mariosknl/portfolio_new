@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.105.6
-        version: 9.112.1(@react-three/fiber@8.17.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0))(@types/react@18.3.8)(@types/three@0.163.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0)
+        version: 9.113.0(@react-three/fiber@8.17.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0))(@types/react@18.3.8)(@types/three@0.163.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0)
       '@react-three/fiber':
         specifier: ^8.16.6
         version: 8.17.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0)
@@ -541,8 +541,8 @@ packages:
   '@react-spring/types@9.6.1':
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
 
-  '@react-three/drei@9.112.1':
-    resolution: {integrity: sha512-2DFR7ChdgQTwDacJDmq7Oi4j7szkhHSd3h9Mu1NbJ06YYfBYzyxA/EDgCCWPgAdiV1b8SbrFeXXpJHoD65vC0Q==}
+  '@react-three/drei@9.113.0':
+    resolution: {integrity: sha512-y+V6/vyRteYtvYkEzfAmBsEXzMCftONKHbVHEqrx5LG6jrXmwFJP1sSHXU16c05cXH91GIGRiputcTIspLZsZQ==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'
@@ -1295,8 +1295,8 @@ packages:
   delaunator@5.0.1:
     resolution: {integrity: sha512-8nvh+XBe96aCESrGOqMp/84b13H9cdKbG5P2ejQCh4d4sK9RL4371qou9drQjMhvnPmhWl5hnmqbEE0fXr9Xnw==}
 
-  detect-gpu@5.0.48:
-    resolution: {integrity: sha512-AdG8ur7loIIIzG8XBjNiLk6Seq4jGp7GAL2TEsjq7etgK8ia6ha3rTbBCRCHsnwYiLqYn4uWJfS7hVwZz7DKNQ==}
+  detect-gpu@5.0.49:
+    resolution: {integrity: sha512-XXPqzsKJErNcafLnoye+hnSa5GzwMwpoOMz4nCnmhV0wQMy3wJVi2j5/FSMYxxH+elR12N/x7QjGxegd4AmdpQ==}
 
   didyoumean@1.2.2:
     resolution: {integrity: sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==}
@@ -2676,8 +2676,9 @@ packages:
     peerDependencies:
       three: '>=0.125'
 
-  three-mesh-bvh@0.7.6:
-    resolution: {integrity: sha512-rCjsnxEqR9r1/C/lCqzGLS67NDty/S/eT6rAJfDvsanrIctTWdNoR4ZOGWewCB13h1QkVo2BpmC0wakj1+0m8A==}
+  three-mesh-bvh@0.7.8:
+    resolution: {integrity: sha512-BGEZTOIC14U0XIRw3tO4jY7IjP7n7v24nv9JXS1CyeVRWOCkcOMhRnmENUjuV39gktAw4Ofhr0OvIAiTspQrrw==}
+    deprecated: Deprecated due to three.js version incompatibility. Please use v0.8.0, instead.
     peerDependencies:
       three: '>= 0.151.0'
 
@@ -3441,7 +3442,7 @@ snapshots:
 
   '@react-spring/types@9.6.1': {}
 
-  '@react-three/drei@9.112.1(@react-three/fiber@8.17.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0))(@types/react@18.3.8)(@types/three@0.163.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0)':
+  '@react-three/drei@9.113.0(@react-three/fiber@8.17.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0))(@types/react@18.3.8)(@types/three@0.163.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0)':
     dependencies:
       '@babel/runtime': 7.25.6
       '@mediapipe/tasks-vision': 0.10.8
@@ -3451,7 +3452,7 @@ snapshots:
       '@use-gesture/react': 10.3.1(react@18.3.1)
       camera-controls: 2.9.0(three@0.168.0)
       cross-env: 7.0.3
-      detect-gpu: 5.0.48
+      detect-gpu: 5.0.49
       glsl-noise: 0.0.0
       hls.js: 1.3.5
       maath: 0.10.8(@types/three@0.163.0)(three@0.168.0)
@@ -3462,7 +3463,7 @@ snapshots:
       stats.js: 0.17.0
       suspend-react: 0.1.3(react@18.3.1)
       three: 0.168.0
-      three-mesh-bvh: 0.7.6(three@0.168.0)
+      three-mesh-bvh: 0.7.8(three@0.168.0)
       three-stdlib: 2.33.0(three@0.168.0)
       troika-three-text: 0.49.1(three@0.168.0)
       tunnel-rat: 0.1.2(@types/react@18.3.8)(react@18.3.1)
@@ -4390,7 +4391,7 @@ snapshots:
     dependencies:
       robust-predicates: 3.0.2
 
-  detect-gpu@5.0.48:
+  detect-gpu@5.0.49:
     dependencies:
       webgl-constants: 1.1.1
 
@@ -5914,7 +5915,7 @@ snapshots:
       tinycolor2: 1.6.0
       yaot: 1.1.3
 
-  three-mesh-bvh@0.7.6(three@0.168.0):
+  three-mesh-bvh@0.7.8(three@0.168.0):
     dependencies:
       three: 0.168.0
 
