@@ -62,7 +62,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^20
-        version: 20.17.4
+        version: 20.17.5
       '@types/react':
         specifier: ^18
         version: 18.3.12
@@ -796,8 +796,8 @@ packages:
   '@types/mysql@2.15.26':
     resolution: {integrity: sha512-DSLCOXhkvfS5WNNPbfn2KdICAmk8lLc+/PNvnPnF7gOdMZCxopXduqv0OQ13y/yA/zXTSikZZqVgybUxOEg6YQ==}
 
-  '@types/node@20.17.4':
-    resolution: {integrity: sha512-Fi1Bj8qTJr4f1FDdHFR7oMlOawEYSzkHNdBJK+aRjcDDNHwEV3jPPjuZP2Lh2QNgXeqzM8Y+U6b6urKAog2rZw==}
+  '@types/node@20.17.5':
+    resolution: {integrity: sha512-n8FYY/pRxu496441gIcAQFZPKXbhsd6VZygcq+PTSZ75eMh/Ke0hCAROdUa21qiFqKNsPPYic46yXDO1JGiPBQ==}
 
   '@types/offscreencanvas@2019.7.3':
     resolution: {integrity: sha512-ieXiYmgSRXUDeOntE1InxjWyvEelZGP63M+cGuquuRLuIKKT1osnkXjxev9B7d1nXSug5vpunx+gNlbVxMlC9A==}
@@ -3783,7 +3783,7 @@ snapshots:
 
   '@types/connect@3.4.36':
     dependencies:
-      '@types/node': 20.17.4
+      '@types/node': 20.17.5
 
   '@types/debounce@1.2.4': {}
 
@@ -3799,9 +3799,9 @@ snapshots:
 
   '@types/mysql@2.15.26':
     dependencies:
-      '@types/node': 20.17.4
+      '@types/node': 20.17.5
 
-  '@types/node@20.17.4':
+  '@types/node@20.17.5':
     dependencies:
       undici-types: 6.19.8
 
@@ -3813,7 +3813,7 @@ snapshots:
 
   '@types/pg@8.6.1':
     dependencies:
-      '@types/node': 20.17.4
+      '@types/node': 20.17.5
       pg-protocol: 1.7.0
       pg-types: 2.2.0
 
@@ -5142,7 +5142,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.17.4
+      '@types/node': 20.17.5
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
