@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.105.6
-        version: 9.121.2(@react-three/fiber@8.17.10(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0))(@types/react@19.0.2)(@types/three@0.170.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)(use-sync-external-store@1.4.0(react@19.0.0))
+        version: 9.121.2(@react-three/fiber@8.17.12(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0))(@types/react@19.0.2)(@types/three@0.170.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)(use-sync-external-store@1.4.0(react@19.0.0))
       '@react-three/fiber':
         specifier: ^8.16.6
-        version: 8.17.10(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)
+        version: 8.17.12(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)
       '@sentry/nextjs':
         specifier: ^8
         version: 8.50.0(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.56.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(next@15.1.4(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(webpack@5.96.1)
@@ -692,15 +692,15 @@ packages:
       react-dom:
         optional: true
 
-  '@react-three/fiber@8.17.10':
-    resolution: {integrity: sha512-S6bqa4DqUooEkInYv/W+Jklv2zjSYCXAhm6qKpAQyOXhTEt5gBXnA7W6aoJ0bjmp9pAeaSj/AZUoz1HCSof/uA==}
+  '@react-three/fiber@8.17.12':
+    resolution: {integrity: sha512-rjV/ZtCr69y+aWEOsAhBQzsxYyvZHUanYfo9eMXNp/dxTj3ZrRvK44DkIdSLV1xcPidq8p2YeU2oWP2czY+ZVA==}
     peerDependencies:
       expo: '>=43.0'
       expo-asset: '>=8.4'
       expo-file-system: '>=11.0'
       expo-gl: '>=11.0'
-      react: '>=18.0'
-      react-dom: '>=18.0'
+      react: '>=18 <19'
+      react-dom: '>=18 <19'
       react-native: '>=0.64'
       three: '>=0.133'
     peerDependenciesMeta:
@@ -929,8 +929,10 @@ packages:
   '@types/react-reconciler@0.26.7':
     resolution: {integrity: sha512-mBDYl8x+oyPX/VBb3E638N0B7xG+SPk/EAMcVPeexqus/5aTpTphQi0curhhshOqRrc9t6OPoJfEUkbymse/lQ==}
 
-  '@types/react-reconciler@0.28.8':
-    resolution: {integrity: sha512-SN9c4kxXZonFhbX4hJrZy37yw9e7EIxcpHCxQv5JUS18wDE5ovkQKlqQEkufdJCCMfuI9BnjUJvhYeJ9x5Ra7g==}
+  '@types/react-reconciler@0.28.9':
+    resolution: {integrity: sha512-HHM3nxyUZ3zAylX8ZEyrDNd2XZOnQ0D5XfunJF5FLQnZbHHYq4UWvW1QfelQNXv1ICNkwYhfxjwfnqivYB6bFg==}
+    peerDependencies:
+      '@types/react': '*'
 
   '@types/react@19.0.2':
     resolution: {integrity: sha512-USU8ZI/xyKJwFTpjSVIrSeHBVAGagkHQKPNbxeWwql/vDmnTIBgx+TJnhFnj1NXgz8XfprU0egV2dROLGpsBEg==}
@@ -946,9 +948,6 @@ packages:
 
   '@types/three@0.170.0':
     resolution: {integrity: sha512-CUm2uckq+zkCY7ZbFpviRttY+6f9fvwm6YqSqPfA5K22s9w7R4VnA3rzJse8kHVvuzLcTx+CjNCs2NYe0QFAyg==}
-
-  '@types/webxr@0.5.20':
-    resolution: {integrity: sha512-JGpU6qiIJQKUuVSKx1GtQnHJGxRjtfGIhzO2ilq43VZZS//f1h1Sgexbdk+Lq+7569a6EYhOWrUpIruR/1Enmg==}
 
   '@types/webxr@0.5.21':
     resolution: {integrity: sha512-geZIAtLzjGmgY2JUi6VxXdCrTb99A7yP49lxLr2Nm/uIK0PkkxcEi4OGhoGDO4pxCf3JwGz2GiJL2Ej4K2bKaA==}
@@ -3698,25 +3697,25 @@ snapshots:
       '@react-spring/types': 9.7.5
       react: 19.0.0
 
-  '@react-spring/three@9.7.5(@react-three/fiber@8.17.10(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0))(react@19.0.0)(three@0.171.0)':
+  '@react-spring/three@9.7.5(@react-three/fiber@8.17.12(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0))(react@19.0.0)(three@0.171.0)':
     dependencies:
       '@react-spring/animated': 9.7.5(react@19.0.0)
       '@react-spring/core': 9.7.5(react@19.0.0)
       '@react-spring/shared': 9.7.5(react@19.0.0)
       '@react-spring/types': 9.7.5
-      '@react-three/fiber': 8.17.10(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)
+      '@react-three/fiber': 8.17.12(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)
       react: 19.0.0
       three: 0.171.0
 
   '@react-spring/types@9.7.5': {}
 
-  '@react-three/drei@9.121.2(@react-three/fiber@8.17.10(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0))(@types/react@19.0.2)(@types/three@0.170.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)(use-sync-external-store@1.4.0(react@19.0.0))':
+  '@react-three/drei@9.121.2(@react-three/fiber@8.17.12(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0))(@types/react@19.0.2)(@types/three@0.170.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)(use-sync-external-store@1.4.0(react@19.0.0))':
     dependencies:
       '@babel/runtime': 7.26.0
       '@mediapipe/tasks-vision': 0.10.17
       '@monogrid/gainmap-js': 3.1.0(three@0.171.0)
-      '@react-spring/three': 9.7.5(@react-three/fiber@8.17.10(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0))(react@19.0.0)(three@0.171.0)
-      '@react-three/fiber': 8.17.10(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)
+      '@react-spring/three': 9.7.5(@react-three/fiber@8.17.12(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0))(react@19.0.0)(three@0.171.0)
+      '@react-three/fiber': 8.17.12(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)
       '@use-gesture/react': 10.3.1(react@19.0.0)
       camera-controls: 2.9.0(three@0.171.0)
       cross-env: 7.0.3
@@ -3745,16 +3744,16 @@ snapshots:
       - immer
       - use-sync-external-store
 
-  '@react-three/fiber@8.17.10(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)':
+  '@react-three/fiber@8.17.12(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(three@0.171.0)':
     dependencies:
       '@babel/runtime': 7.26.0
       '@types/debounce': 1.2.4
       '@types/react-reconciler': 0.26.7
-      '@types/webxr': 0.5.20
+      '@types/webxr': 0.5.21
       base64-js: 1.5.1
       buffer: 6.0.3
       debounce: 1.2.1
-      its-fine: 1.2.5(react@19.0.0)
+      its-fine: 1.2.5(@types/react@19.0.2)(react@19.0.0)
       react: 19.0.0
       react-reconciler: 0.27.0(react@19.0.0)
       scheduler: 0.21.0
@@ -3763,6 +3762,8 @@ snapshots:
       zustand: 3.7.2(react@19.0.0)
     optionalDependencies:
       react-dom: 19.0.0(react@19.0.0)
+    transitivePeerDependencies:
+      - '@types/react'
 
   '@rollup/plugin-commonjs@28.0.1(rollup@3.29.5)':
     dependencies:
@@ -4056,7 +4057,7 @@ snapshots:
     dependencies:
       '@types/react': 19.0.2
 
-  '@types/react-reconciler@0.28.8':
+  '@types/react-reconciler@0.28.9(@types/react@19.0.2)':
     dependencies:
       '@types/react': 19.0.2
 
@@ -4080,8 +4081,6 @@ snapshots:
       '@webgpu/types': 0.1.53
       fflate: 0.8.2
       meshoptimizer: 0.18.1
-
-  '@types/webxr@0.5.20': {}
 
   '@types/webxr@0.5.21': {}
 
@@ -5341,10 +5340,12 @@ snapshots:
       reflect.getprototypeof: 1.0.7
       set-function-name: 2.0.2
 
-  its-fine@1.2.5(react@19.0.0):
+  its-fine@1.2.5(@types/react@19.0.2)(react@19.0.0):
     dependencies:
-      '@types/react-reconciler': 0.28.8
+      '@types/react-reconciler': 0.28.9(@types/react@19.0.2)
       react: 19.0.0
+    transitivePeerDependencies:
+      - '@types/react'
 
   jackspeak@3.4.3:
     dependencies:
