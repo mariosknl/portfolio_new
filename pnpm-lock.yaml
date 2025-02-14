@@ -22,7 +22,7 @@ importers:
         version: 2.1.1
       framer-motion:
         specifier: ^12.0.0
-        version: 12.4.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 12.4.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       i:
         specifier: ^0.3.7
         version: 0.3.7
@@ -1727,8 +1727,8 @@ packages:
   frame-ticker@1.0.3:
     resolution: {integrity: sha512-E0X2u2JIvbEMrqEg5+4BpTqaD22OwojJI63K7MdKHdncjtAhGRbCR8nJCr2vwEt9NWBPCPcu70X9smPviEBy8Q==}
 
-  framer-motion@12.4.2:
-    resolution: {integrity: sha512-pW307cQKjDqEuO1flEoIFf6TkuJRfKr+c7qsHAJhDo4368N/5U8/7WU8J+xhd9+gjmOgJfgp+46evxRRFM39dA==}
+  framer-motion@12.4.3:
+    resolution: {integrity: sha512-rsMeO7w3dKyNG09o3cGwSH49iHU+VgDmfSSfsX+wfkO3zDA6WWkh4sUsMXd155YROjZP+7FTIhDrBYfgZeHjKQ==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
@@ -5066,7 +5066,7 @@ snapshots:
     dependencies:
       simplesignal: 2.1.7
 
-  framer-motion@12.4.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  framer-motion@12.4.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       motion-dom: 12.0.0
       motion-utils: 12.0.0
