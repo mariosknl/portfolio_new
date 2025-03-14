@@ -58,7 +58,7 @@ importers:
         version: 0.173.0
       three-globe:
         specifier: ^2.31.0
-        version: 2.41.12(three@0.173.0)
+        version: 2.42.2(three@0.173.0)
     devDependencies:
       '@types/node':
         specifier: ^22.0.0
@@ -1026,8 +1026,8 @@ packages:
   '@webassemblyjs/wast-printer@1.14.1':
     resolution: {integrity: sha512-kPSSXE6De1XOR820C90RIo2ogvZG+c3KiHzqUoO/F34Y2shGzesfqv7o57xrxovZJH/MetF5UjroJ/R/3isoiw==}
 
-  '@webgpu/types@0.1.55':
-    resolution: {integrity: sha512-p97I8XEC1h04esklFqyIH+UhFrUcj8/1/vBWgc6lAK4jMJc+KbhUy8D4dquHYztFj6pHLqGcp/P1xvBBF4r3DA==}
+  '@webgpu/types@0.1.56':
+    resolution: {integrity: sha512-JkT4ngqwk4gKAFoWtXCcC1+TGhSStVtauS9z27slOGSFYr+QqjS0CoawiAxP7Gq9xkT4Pw9uouvWPT44HwbUiw==}
 
   '@xtuc/ieee754@1.2.0':
     resolution: {integrity: sha512-DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==}
@@ -1331,8 +1331,8 @@ packages:
   damerau-levenshtein@1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
 
-  data-bind-mapper@1.0.1:
-    resolution: {integrity: sha512-xWkgLj/mSDs/Y2flAMXwLKxnCh+rFScf4N8hSOtpsMxXYXui7CbtIUYP52VXQze9HhRND2Ua/AiEHZ8j/vtB0w==}
+  data-bind-mapper@1.0.2:
+    resolution: {integrity: sha512-OJBssRDE5jGqPatqFfZzKWQ16oXzz7/2lSdEU84y6syEbJAqV3Ckr/1gzpX387tIuXiZZ6+g3tKvvBHT+umWnA==}
     engines: {node: '>=12'}
 
   data-view-buffer@1.0.1:
@@ -2625,8 +2625,8 @@ packages:
     peerDependencies:
       three: '>=0.72.0'
 
-  three-globe@2.41.12:
-    resolution: {integrity: sha512-4vZUsEAgdpxcIQKlsfqCo/PFLS2NzQ5rGPbDTLyINPu2o4i+hikHW0YDLEB7X51w8oxG9lKKwB77NjkiNo+bog==}
+  three-globe@2.42.2:
+    resolution: {integrity: sha512-XumBN8j7i55z5DQ8g9k+cIpB+Y88gf9zC+AmJs6yJWx8EVd5ikFZ4ubbh/2NtsGzIuuZNXba1CmdG+8d5Z0dug==}
     engines: {node: '>=12'}
     peerDependencies:
       three: '>=0.154'
@@ -3823,7 +3823,7 @@ snapshots:
       '@tweenjs/tween.js': 23.1.3
       '@types/stats.js': 0.17.3
       '@types/webxr': 0.5.21
-      '@webgpu/types': 0.1.55
+      '@webgpu/types': 0.1.56
       fflate: 0.8.2
       meshoptimizer: 0.18.1
 
@@ -3994,7 +3994,7 @@ snapshots:
       '@webassemblyjs/ast': 1.14.1
       '@xtuc/long': 4.2.2
 
-  '@webgpu/types@0.1.55': {}
+  '@webgpu/types@0.1.56': {}
 
   '@xtuc/ieee754@1.2.0': {}
 
@@ -4326,7 +4326,7 @@ snapshots:
 
   damerau-levenshtein@1.0.8: {}
 
-  data-bind-mapper@1.0.1:
+  data-bind-mapper@1.0.2:
     dependencies:
       accessor-fn: 1.5.1
 
@@ -5737,7 +5737,7 @@ snapshots:
       earcut: 3.0.1
       three: 0.173.0
 
-  three-globe@2.41.12(three@0.173.0):
+  three-globe@2.42.2(three@0.173.0):
     dependencies:
       '@tweenjs/tween.js': 25.0.0
       accessor-fn: 1.5.1
@@ -5747,7 +5747,7 @@ snapshots:
       d3-interpolate: 3.0.1
       d3-scale: 4.0.2
       d3-scale-chromatic: 3.1.0
-      data-bind-mapper: 1.0.1
+      data-bind-mapper: 1.0.2
       frame-ticker: 1.0.3
       h3-js: 4.1.0
       index-array-by: 1.4.2
