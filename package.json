@@ -28,7 +28,7 @@
     "three-globe": "^2.31.0"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-lottie": "^1.2.10",
