@@ -58,7 +58,7 @@ importers:
         version: 0.183.2
       three-globe:
         specifier: ^2.31.0
-        version: 2.45.1(three@0.183.2)
+        version: 2.45.2(three@0.183.2)
     devDependencies:
       '@types/node':
         specifier: ^24.0.0
@@ -1667,8 +1667,8 @@ packages:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
     engines: {node: '>= 0.4'}
 
-  delaunator@5.0.1:
-    resolution: {integrity: sha512-8nvh+XBe96aCESrGOqMp/84b13H9cdKbG5P2ejQCh4d4sK9RL4371qou9drQjMhvnPmhWl5hnmqbEE0fXr9Xnw==}
+  delaunator@5.1.0:
+    resolution: {integrity: sha512-AGrQ4QSgssa1NGmWmLPqN5NY2KajF5MqxetNEO+o0n3ZwZZeTmt7bBnvzHWrmkZFxGgr4HdyFgelzgi06otLuQ==}
 
   detect-gpu@5.0.70:
     resolution: {integrity: sha512-bqerEP1Ese6nt3rFkwPnGbsUF9a4q+gMmpTVVOEzoCyeCc+y7/RvJnQZJx1JwhgQI5Ntg0Kgat8Uu7XpBqnz1w==}
@@ -2308,8 +2308,8 @@ packages:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
 
-  lodash-es@4.17.23:
-    resolution: {integrity: sha512-kVI48u3PZr38HdYz98UmfPnXl2DXrpdctLrFLCd3kOx1xUkOmpFPx7gCWWM5MPkL/fD8zb+Ph0QzjGFs4+hHWg==}
+  lodash-es@4.18.1:
+    resolution: {integrity: sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==}
 
   loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
@@ -2671,8 +2671,8 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  robust-predicates@3.0.2:
-    resolution: {integrity: sha512-IXgzBWvWQwE6PrDI05OvmXUIruQTcoMDzRsOd5CDvHCVLcLHMTSYvOK5Cm46kWqlV3yAbuSpBZdJ5oP5OUoStg==}
+  robust-predicates@3.0.3:
+    resolution: {integrity: sha512-NS3levdsRIUOmiJ8FZWCP7LG3QpJyrs/TE0Zpf1yvZu8cAJJ6QMW92H1c7kWpdIHo8RvmLxN/o2JXTKHp74lUA==}
 
   rollup@4.59.0:
     resolution: {integrity: sha512-2oMpl67a3zCH9H79LeMcbDhXW/UmWG/y2zuqnF2jQq5uq9TbM9TVyXvA4+t+ne2IIkBdrLpAaRQAvo7YI/Yyeg==}
@@ -2885,8 +2885,8 @@ packages:
     peerDependencies:
       three: '>=0.72.0'
 
-  three-globe@2.45.1:
-    resolution: {integrity: sha512-82idHCkN8YOn+I93I6Tv9KtIb67Cgc3JFOLxvk0hL3iFhzIproT+XsreoI56ofYB3dSvD4FxZnk8jj6JjajrsQ==}
+  three-globe@2.45.2:
+    resolution: {integrity: sha512-3qJE2LAdyHsUPt02mgMRc+PG3j9kGEA0fUYrwKPGIVtvMR1XjDn9hCXu31AWocdgHOFcXkrRVz7jJZzTIvR0eQ==}
     engines: {node: '>=12'}
     peerDependencies:
       three: '>=0.154'
@@ -2896,8 +2896,8 @@ packages:
     peerDependencies:
       three: '>= 0.159.0'
 
-  three-slippy-map-globe@1.0.5:
-    resolution: {integrity: sha512-e5ZUKclpflaX+0Nc9CQko3vYq4VLrjHiyMQsVpdtE4ztxpw/T9+LHzcxBgp7pvkTfo51UQV2BII+DZCclJOPHg==}
+  three-slippy-map-globe@1.0.6:
+    resolution: {integrity: sha512-PCUR+X+1kYFYtQBf8+b/ct8xBHtnkeu7FItRYBeFxyIe3ksnGuLi0H9RAxAfVSSUsZVbKIKNz9q1atEjynrrkg==}
     engines: {node: '>=12'}
     peerDependencies:
       three: '>=0.154'
@@ -4693,7 +4693,7 @@ snapshots:
 
   d3-delaunay@6.0.4:
     dependencies:
-      delaunator: 5.0.1
+      delaunator: 5.1.0
 
   d3-format@3.1.2: {}
 
@@ -4786,9 +4786,9 @@ snapshots:
       has-property-descriptors: 1.0.2
       object-keys: 1.1.1
 
-  delaunator@5.0.1:
+  delaunator@5.1.0:
     dependencies:
-      robust-predicates: 3.0.2
+      robust-predicates: 3.0.3
 
   detect-gpu@5.0.70:
     dependencies:
@@ -5533,7 +5533,7 @@ snapshots:
 
   kapsule@1.16.3:
     dependencies:
-      lodash-es: 4.17.23
+      lodash-es: 4.18.1
 
   keyv@4.5.4:
     dependencies:
@@ -5560,7 +5560,7 @@ snapshots:
     dependencies:
       p-locate: 5.0.0
 
-  lodash-es@4.17.23: {}
+  lodash-es@4.18.1: {}
 
   loose-envify@1.4.0:
     dependencies:
@@ -5783,7 +5783,7 @@ snapshots:
 
   point-in-polygon-hao@1.2.4:
     dependencies:
-      robust-predicates: 3.0.2
+      robust-predicates: 3.0.3
 
   possible-typed-array-names@1.1.0: {}
 
@@ -5908,7 +5908,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  robust-predicates@3.0.2: {}
+  robust-predicates@3.0.3: {}
 
   rollup@4.59.0:
     dependencies:
@@ -6195,7 +6195,7 @@ snapshots:
       d3-geo: 3.1.1
       d3-geo-voronoi: 2.1.0
       d3-scale: 4.0.2
-      delaunator: 5.0.1
+      delaunator: 5.1.0
       earcut: 3.0.2
       three: 0.183.2
 
@@ -6206,7 +6206,7 @@ snapshots:
       earcut: 3.0.2
       three: 0.183.2
 
-  three-globe@2.45.1(three@0.183.2):
+  three-globe@2.45.2(three@0.183.2):
     dependencies:
       '@tweenjs/tween.js': 25.0.0
       accessor-fn: 1.5.3
@@ -6224,14 +6224,14 @@ snapshots:
       three: 0.183.2
       three-conic-polygon-geometry: 2.1.2(three@0.183.2)
       three-geojson-geometry: 2.1.1(three@0.183.2)
-      three-slippy-map-globe: 1.0.5(three@0.183.2)
+      three-slippy-map-globe: 1.0.6(three@0.183.2)
       tinycolor2: 1.6.0
 
   three-mesh-bvh@0.8.3(three@0.183.2):
     dependencies:
       three: 0.183.2
 
-  three-slippy-map-globe@1.0.5(three@0.183.2):
+  three-slippy-map-globe@1.0.6(three@0.183.2):
     dependencies:
       d3-geo: 3.1.1
       d3-octree: 1.1.0
