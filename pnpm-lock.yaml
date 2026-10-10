@@ -58,7 +58,7 @@ importers:
         version: 0.186.1
       three-globe:
         specifier: ^2.31.0
-        version: 2.45.2(three@0.186.1)
+        version: 2.45.4(three@0.186.1)
     devDependencies:
       '@types/node':
         specifier: ^24.0.0
@@ -2848,8 +2848,8 @@ packages:
     peerDependencies:
       three: '>=0.72.0'
 
-  three-globe@2.45.2:
-    resolution: {integrity: sha512-3qJE2LAdyHsUPt02mgMRc+PG3j9kGEA0fUYrwKPGIVtvMR1XjDn9hCXu31AWocdgHOFcXkrRVz7jJZzTIvR0eQ==}
+  three-globe@2.45.4:
+    resolution: {integrity: sha512-T9XTsvo28Ux5BsECZM8KoQ175RixolVHLD0mq8gxGEnTq0u2xKHkTo60//LKAQm9q9fw2uhMuMExw50Z9eHgog==}
     engines: {node: '>=12'}
     peerDependencies:
       three: '>=0.154'
@@ -5960,7 +5960,7 @@ snapshots:
       earcut: 3.2.3
       three: 0.186.1
 
-  three-globe@2.45.2(three@0.186.1):
+  three-globe@2.45.4(three@0.186.1):
     dependencies:
       '@tweenjs/tween.js': 25.0.0
       accessor-fn: 1.5.3
@@ -6014,8 +6014,6 @@ snapshots:
   to-regex-range@5.0.1:
     dependencies:
       is-number: 7.0.0
-
-  tr46@0.0.3: {}
 
   troika-three-text@0.52.5(three@0.186.1):
     dependencies:
