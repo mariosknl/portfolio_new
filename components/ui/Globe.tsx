@@ -2,12 +2,12 @@
 import { useEffect, useRef, useState } from "react";
 import { Color, Scene, Fog, PerspectiveCamera, Vector3 } from "three";
 import ThreeGlobe from "three-globe";
-import { useThree, Object3DNode, Canvas, extend } from "@react-three/fiber";
+import { useThree, type ThreeElement, Canvas, extend } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import countries from "@/data/globe.json";
 declare module "@react-three/fiber" {
 	interface ThreeElements {
-		threeGlobe: Object3DNode<ThreeGlobe, typeof ThreeGlobe>;
+		threeGlobe: ThreeElement<typeof ThreeGlobe>;
 	}
 }
 
@@ -115,7 +115,13 @@ export function Globe({ globeConfig, data }: WorldProps) {
 
 	const _buildData = () => {
 		const arcs = data;
-		let points = [];
+		const points: {
+			size: number;
+			order: number;
+			color: (t: number) => string;
+			lat: number;
+			lng: number;
+		}[] = [];
 		for (let i = 0; i < arcs.length; i++) {
 			const arc = arcs[i];
 			const rgb = hexToRgb(arc.color) as { r: number; g: number; b: number };
@@ -280,7 +286,7 @@ export function World(props: WorldProps) {
 
 export function hexToRgb(hex: string) {
 	var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-	hex = hex.replace(shorthandRegex, function (m, r, g, b) {
+	hex = hex.replace(shorthandRegex, function (_m: string, r: string, g: string, b: string) {
 		return r + r + g + g + b + b;
 	});
 
@@ -295,7 +301,7 @@ export function hexToRgb(hex: string) {
 }
 
 export function genRandomNumbers(min: number, max: number, count: number) {
-	const arr = [];
+	const arr: number[] = [];
 	while (arr.length < count) {
 		const r = Math.floor(Math.random() * (max - min)) + min;
 		if (arr.indexOf(r) === -1) arr.push(r);

@@ -1,16 +1,7 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "packageRules": [
-    {
-      "updateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": true
-    }
-  ],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "automerge": false,
   "timezone": "Europe/Athens",
   "schedule": [
     "after 10pm every weekday",

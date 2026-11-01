@@ -5,7 +5,7 @@ import {
 	AnimatePresence,
 	useScroll,
 	useMotionValueEvent,
-} from "framer-motion";
+} from "motion/react";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 
@@ -16,7 +16,7 @@ export const FloatingNav = ({
 	navItems: {
 		name: string;
 		link: string;
-		icon?: JSX.Element;
+		icon?: React.ReactElement;
 	}[];
 	className?: string;
 }) => {
