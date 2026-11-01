@@ -2,20 +2,24 @@
   "name": "portfolio_new",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.33.4+sha512.1c67b3b359b2d408119ba1ed289f34b8fc3c6873412bec6fd264fbdc82489e510fcbecb9ce9d22dae7f3b76269d8441046014bdca53b9979cd7a561ad631b800",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@react-three/drei": "^10.0.0",
     "@react-three/fiber": "^9.0.0",
     "@sentry/nextjs": "^11.0.0",
     "clsx": "^2.1.1",
-    "motion": "^14.0.0",
-    "i": "^0.3.7",
     "mini-svg-data-uri": "^1.4.4",
+    "motion": "^14.0.0",
     "next": "16.3.8",
     "next-themes": "^0.4.0",
     "react": "^19.0.0",
@@ -28,14 +32,15 @@
     "three-globe": "^2.31.0"
   },
   "devDependencies": {
-    "@types/node": "^26.0.0",
+    "@types/node": "^24.19.2",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-lottie": "^1.2.10",
-    "eslint": "^10.0.0",
+    "@types/three": "~0.186.0",
+    "eslint": "^9.39.5",
     "eslint-config-next": "16.3.8",
     "postcss": "^8",
-    "tailwindcss": "^4.0.0",
-    "typescript": "^7.0.0"
+    "tailwindcss": "~3.4.19",
+    "typescript": "~5.9.3"
   }
 }
